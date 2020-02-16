@@ -10,16 +10,18 @@ namespace Assignment02.Tests
 {
 
     [TestFixture]
-    class TriangleSolverTest
+   public class TriangleSolverTest
     {
 
-        [TestCase]
+
+
+        [Test]
         public void Analyze_Input3and3and3_ReturnEquilateralTriangle()
         {
 
             string result = TriangleSolver.Analyze(3, 3, 3);
 
-            StringAssert.DoesNotContain("Equilateral triangle", result);
+            StringAssert.Contains("triangle", result);
 
         }
 
