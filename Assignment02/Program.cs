@@ -47,14 +47,14 @@ namespace Assignment02
 
                             do
                             {
-                                Console.WriteLine("Please enter the first side of the traingle");
+                                Console.WriteLine("Please enter the first side of the triangle");
                                 sideString = Console.ReadLine();
 
                             } while ((!int.TryParse(sideString, out firstSide) || firstSide < 1));
 
                             do
                             {
-                                Console.WriteLine("Please enter the second side of the traingle");
+                                Console.WriteLine("Please enter the second side of the triangle");
                                 sideString = Console.ReadLine();
 
                             } while ((!int.TryParse(sideString, out secondSide) || secondSide < 1));
@@ -62,7 +62,7 @@ namespace Assignment02
                             do
                             {
 
-                                Console.WriteLine("Please enter the third side of the traingle");
+                                Console.WriteLine("Please enter the third side of the triangle");
                                 sideString = Console.ReadLine();
 
                             } while ((!int.TryParse(sideString, out thirdSide) || thirdSide < 1));
@@ -72,6 +72,7 @@ namespace Assignment02
 
                             string result = TriangleSolver.Analyze(firstSide, secondSide, thirdSide);
                             Console.WriteLine(result);
+                            Console.WriteLine("Press any key to go back to the main menu and try again.");
                             Console.ReadKey();
 
                             break;
@@ -98,7 +99,7 @@ namespace Assignment02
             catch
             {
 
-                throw new NotImplementedException();
+                throw new Exception();
 
             }
 

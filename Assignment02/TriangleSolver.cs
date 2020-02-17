@@ -18,30 +18,33 @@ namespace Assignment02
             {
                 string result;
 
+                //equal sides
                 if (firstSide == secondSide && firstSide == thirdSide)
                 {
 
-                    result = "The traingle they form is an Equilateral triangle.\n";
+                    result = "The triangle they form is an Equilateral triangle.";
                 }
 
+                //only tow sides are equal
                 else if (firstSide == secondSide || firstSide == thirdSide || secondSide == thirdSide)
                 {
 
-                    result = "The traingle they form is an Isosceles traingle.\n";
+                    result = "The triangle they form is an Isosceles triangle.";
                 }
 
+                //different sides
                 else
                 {
-                    result = "The traingle they form is a Scalene traingle.\n";
+                    result = "The triangle they form is a Scalene triangle.";
 
                 }
 
-                return "The three sides you entered form a traingle.\n" + result + "Press any key to go back to the main menu and try again.";
+                return "The three sides you entered form a triangle.\n" + result;
 
             }
 
 
-            else { return "The three sides you entered don't form a traingle!\nPress any key to go back to the main menu and try again."; }
+            else { return "The three sides you entered don't form a triangle!"; }
 
 
 
