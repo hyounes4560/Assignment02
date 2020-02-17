@@ -25,7 +25,7 @@ namespace Assignment02
                     result = "The triangle they form is an Equilateral triangle.";
                 }
 
-                //only tow sides are equal
+                //only two sides are equal
                 else if (firstSide == secondSide || firstSide == thirdSide || secondSide == thirdSide)
                 {
 

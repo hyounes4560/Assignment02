@@ -96,11 +96,9 @@ namespace Assignment02
 
 
             }
-            catch
+            catch (Exception e)
             {
-
-                throw new Exception();
-
+                Console.WriteLine("Something went wrong " + e.Message);
             }
 
 

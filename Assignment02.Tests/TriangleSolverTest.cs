@@ -138,7 +138,7 @@ namespace Assignment02.Tests
 
 
         [Test]
-        /*8-This test case tests if 3 sides form a triangle or not. 
+        /*10-This test case tests if 3 sides form a triangle or not. 
          If they do form a triangle, return the type of the triangle.  
          In this test, the sides are big numbers with 1 (100,1,100), they don't form a triangle.*/
         public void Analyze_Input100and1and100_ReturnNotTriangle()

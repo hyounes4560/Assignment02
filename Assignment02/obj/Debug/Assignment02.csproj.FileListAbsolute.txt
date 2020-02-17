@@ -4,3 +4,5 @@ C:\Users\white\source\Assignment2QA\Assignment02\Assignment02\bin\Debug\Assignme
 C:\Users\white\source\Assignment2QA\Assignment02\Assignment02\obj\Debug\Assignment02.csprojAssemblyReference.cache
 C:\Users\white\source\Assignment2QA\Assignment02\Assignment02\obj\Debug\Assignment02.exe
 C:\Users\white\source\Assignment2QA\Assignment02\Assignment02\obj\Debug\Assignment02.pdb
+C:\Users\white\source\Assignment2QA\Assignment02\Assignment02\bin\Debug\Assignment02.exe.CodeAnalysisLog.xml
+C:\Users\white\source\Assignment2QA\Assignment02\Assignment02\bin\Debug\Assignment02.exe.lastcodeanalysissucceeded
