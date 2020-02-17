@@ -26,7 +26,9 @@ namespace Assignment02.Tests
         [Test]
         /*1-This test case tests if 3 sides form a triangle or not. 
          If they do form a triangle, return the type of the triangle.  
-         In this test, the sides (1,2,3) don't form a triangle.*/
+         In this test, the sides (1,2,3) don't form a triangle.
+         I am trying to used different permutaions of these three numbers
+         to test if the output would be not triangle (test case 2, test case 3)*/
         public void Analyze_Input1and2and3_ReturnNotTriangle()
         {
 
@@ -64,7 +66,7 @@ namespace Assignment02.Tests
         [Test]
         /*4- This test case tests if 3 sides form a triangle or not. 
          If they do form a triangle, return the type of the triangle.  
-         In this test, the sides (0,10,0) don't form a triangle.*/
+         In this test, the sides have two zero values (0,10,0)and don't form a triangle.*/
         public void Analyze_Input0and10and0_ReturnNotlTriangle()
         {
 
@@ -77,7 +79,7 @@ namespace Assignment02.Tests
         [Test]
         /*5- This test case tests if 3 sides form a triangle or not. 
          If they do form a triangle, return the type of the triangle.  
-         In this test, the sides (-6,-6,-6) don't form a triangle.*/
+         In this test, the sides are negative (-6,-6,-6) and don't form a triangle.*/
         public void Analyze_InputNegativeNumbers_ReturnNotlTriangle()
         {
 
@@ -89,7 +91,7 @@ namespace Assignment02.Tests
         [Test]
         /*6- This test case tests if 3 sides form a triangle or not. 
          If they do form a triangle, return the type of the triangle.  
-         In this test, the sides (8,-1,0) don't form a triangle.*/
+         In this test, the sides have zero and negative number (8,-1,0) and don't form a triangle.*/
         public void Analyze_Input8and0andNegativeNumber_ReturnNotlTriangle()
         {
 
@@ -101,7 +103,7 @@ namespace Assignment02.Tests
         [Test]
         /*7- This test case tests if 3 sides form a triangle or not. 
          If they do form a triangle, return the type of the triangle.  
-         In this test, the sides (4,4,4) form an Equilateral triangle.*/
+         In this test, the sides are equal and valid (4,4,4), they form an Equilateral triangle.*/
         public void Analyze_Input4and4and4_ReturnEquilateralTriangle()
         {
 
@@ -114,7 +116,7 @@ namespace Assignment02.Tests
         [Test]
         /*8- This test case tests if 3 sides form a triangle or not. 
          If they do form a triangle, return the type of the triangle. 
-         In this test, the sides (4,5,5) form an Isosceles triangle.*/
+         In this test, the sides are valid and two are equal (4,5,5), they form an Isosceles triangle.*/
         public void Analyze_Input4and5and5_ReturnIsoscelesTriangle()
         {
             string result = TriangleSolver.Analyze(4, 5, 5);
@@ -126,7 +128,7 @@ namespace Assignment02.Tests
         [Test]
         /*9- This test case tests if 3 sides form a triangle or not. 
          If they do form a triangle, return the type of the triangle. 
-         In this test, the sides (6,5,8) form an Scalene triangle.*/
+         In this test, the sides are valid and different (6,5,8), they form an Scalene triangle.*/
         public void Analyze_Input6and5and8_ReturnScaleneTriangle()
         {
             string result = TriangleSolver.Analyze(6, 5, 8);
@@ -138,7 +140,7 @@ namespace Assignment02.Tests
         [Test]
         /*8-This test case tests if 3 sides form a triangle or not. 
          If they do form a triangle, return the type of the triangle.  
-         In this test, the sides (100,1,100) don't form a triangle.*/
+         In this test, the sides are big numbers with 1 (100,1,100), they don't form a triangle.*/
         public void Analyze_Input100and1and100_ReturnNotTriangle()
         {
 
